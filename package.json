@@ -1,13 +1,12 @@
 {
   "name": "realpaths",
   "version": "1.0.0",
-  "description": "Like [fs.realpath][realpath], but resolves multiple paths at once",
+  "description": "Like fs.realpath, but resolves multiple paths at once",
   "repository": "shinnn/realpaths",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --config @shinnn/node index.js test.js",
-    "test": "node --strong_mode test.js",
-    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+    "test": "istanbul cover test.js"
   },
   "license": "MIT",
   "files": [
